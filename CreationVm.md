@@ -7,5 +7,5 @@ full name : ex: Serveur Web
 User name : ex: serveur
 Password : ex: 2004
 
-## Mettre à jour notre ubuntu avant de faire quoi que se soit
+## Installer serveur Apache 
 sudo apt-get install apache2
