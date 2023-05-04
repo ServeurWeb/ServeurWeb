@@ -5,8 +5,8 @@ Tout d'abord nous allons vous faire une explication de chaque fichier que nous a
 
 
 ## Sommaire
-1. [userStory.md](./userStory.md)
-2. [technologies](./techno.md)
-3. [CreationVm.md](./CreationVm.md)
-4. [commande.md](./commande.md)
+1. [User Story](./userStory.md)
+2. [Technologies](./techno.md)
+3. [Creation Vm](./CreationVm.md)
+4. [Commande](./commande.md)
 
