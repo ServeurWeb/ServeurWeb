@@ -1,4 +1,4 @@
-[README.md](./README.md)
+[Sommaire](./README.md)
 
 
 # Le besoin d'un serveur web pour la start-up Ynnov'Solutions
