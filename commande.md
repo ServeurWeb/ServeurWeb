@@ -4,6 +4,8 @@
 
 # Création du serveur web
 
+## Installer serveur Apache 
+sudo apt-get install apache2
 
 ## Création du fichier pour ajouter notre site web
 sudo mkdir /var/www/monsite
@@ -64,3 +66,5 @@ sudo systemctl status mysql
 ## Regarder sur internet si notre serveur marche
 Mettre notre adresse Ip (ex: http://192.168.??.??/)
 
+## Installer Python3
+sudo apt-get install python3

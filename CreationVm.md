@@ -9,5 +9,3 @@ full name : ex: Serveur Web
 User name : ex: serveur
 Password : ex: 2004
 
-## Installer serveur Apache 
-sudo apt-get install apache2
