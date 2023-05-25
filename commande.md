@@ -68,3 +68,5 @@ Mettre notre adresse Ip (ex: http://192.168.??.??/)
 
 ## Installer Python3
 sudo apt-get install python3
+
+Ces étapes vous permettront de créer et de configurer un serveur web Apache avec PHP et Python sur votre machine virtuelle. Assurez-vous de suivre les instructions avec précision pour garantir le bon fonctionnement de votre serveur web.
