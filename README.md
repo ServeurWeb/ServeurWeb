@@ -13,8 +13,9 @@ Tout d'abord nous allons vous faire une explication de chaque fichier que nous a
 
 ## Sommaire
 1. [User Story](./userStory.md)
-2. [Technologies](./techno.md)
-3. [Creation Vm](./CreationVm.md)
-4. [Commande](./commande.md)
-5. [Nos Projets](./nosProjets.md)
+2. [Technologies](./etatDeLart.md)
+3. [Outils](./outils.md)
+4. [Creation Vm](./CreationVm.md)
+5. [Commande](./commande.md)
+6. [Nos Projets](./nosProjets.md)
 
