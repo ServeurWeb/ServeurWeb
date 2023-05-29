@@ -47,10 +47,6 @@ sudo systemctl enable apache2
 sudo systemctl status apache2
 
 
-## Trouver son Ip
-ip addr show
-
-
 ## Installer Php
 sudo apt-get install libapache2-mod-php
 
@@ -65,6 +61,11 @@ sudo systemctl status mysql
 
 ## Regarder sur internet si notre serveur marche
 Mettre notre adresse Ip (ex: http://192.168.??.??/)
+
+
+## Trouver son Ip
+ip addr show
+
 
 ## Installer Python3
 sudo apt-get install python3

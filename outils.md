@@ -16,7 +16,7 @@ Ensuite, pour la gestion de notre code source, nous avons utilisé GitHub, une p
 
 ## 3. Canva
 
-Enfin, pour la conception graphique et la création de visuels attrayants, nous avons fait appel à Canva, un outil en ligne très pratique et convivial. Canva nous a permis de créer facilement notre Roadmap ainsi que notre Architecture, en offrant une bibliothèque d'éléments graphiques prêts à l'emploi et des fonctionnalités de personnalisation avancées.
+Pour la conception graphique et la création de visuels attrayants, nous avons fait appel à Canva, un outil en ligne très pratique et convivial. Canva nous a permis de créer facilement notre Roadmap ainsi que notre Architecture, en offrant une bibliothèque d'éléments graphiques prêts à l'emploi et des fonctionnalités de personnalisation avancées.
 
 
 ## 4. Discord
@@ -26,7 +26,7 @@ Pour la communication, nous avons utilisé Discord. Discord nous a permis de com
 
 ## 5. Vmware
 
-Nous avons également utilisé VMware, une solution de virtualisation de premier plan. VMware nous a permis de créer et de gérer des machines virtuelles (VM) de manière efficace. Nous avons pu créer des VM, les configurer et les gérer facilement, en utilisant une interface intuitive et des fonctionnalités avancées. 
+Enfin, nous avons également utilisé VMware, une solution de virtualisation de premier plan. VMware nous a permis de créer et de gérer des machines virtuelles (VM) de manière efficace. Nous avons pu créer des VM, les configurer et les gérer facilement, en utilisant une interface intuitive et des fonctionnalités avancées. 
 
 
 ## 6. Conclusion

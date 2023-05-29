@@ -5,22 +5,24 @@
 # Nos Technologies
 
 
-## Apache
+## Serveur Web avec Apache
 
-Apache a été choisi comme serveur web principal en raison de sa popularité, de sa fiabilité et de sa flexibilité. La start-up Ynnov'Solutions a opté pour Apache en tant que plateforme pour servir les pages web et les applications développées par son équipe. La popularité d'Apache signifie qu'il est bien soutenu par une large communauté et dispose d'une vaste documentation, ce qui facilitera le processus de développement et de débogage. De plus, Apache est réputé pour sa fiabilité, ce qui garantit que le serveur fonctionnera de manière stable même dans des conditions de charge élevée. En outre, Apache offre une grande flexibilité en permettant aux développeurs de personnaliser et d'étendre ses fonctionnalités selon les besoins spécifiques de la start-up.
+Apache a été choisi comme serveur Web principal en raison de sa popularité, de sa fiabilité et de sa flexibilité. La startup Ynnov'Solutions choisit Apache comme plateforme pour servir les pages web et les applications que son équipe développe. La popularité d'Apache signifie qu'il est bien pris en charge par une large communauté et dispose d'une documentation complète, ce qui devrait faciliter le processus de développement et de débogage. Et Apache est connu pour sa fiabilité, qui peut garantir que le serveur fonctionne de manière stable même sous une charge importante. De plus, Apache offre une grande flexibilité en permettant aux développeurs de personnaliser et d'étendre ses fonctionnalités en fonction des besoins spécifiques des startups.
 
-Une autre considération importante lors de l'utilisation d'Apache est la sécurité des communications entre le serveur et les clients. Pour assurer cette sécurité, il sera nécessaire de configurer Apache pour prendre en charge les certificats SSL. Cela permettra d'établir des connexions sécurisées et chiffrées, protégeant ainsi les données sensibles échangées entre le serveur et les utilisateurs. La mise en place des certificats SSL garantira la confiance des utilisateurs et renforcera la réputation de la start-up en matière de sécurité des données.
+Un autre aspect important de l'utilisation d'Apache est la sécurité de la communication entre le serveur et le client. Pour assurer cette sécurité, Apache doit être configuré pour prendre en charge les certificats SSL. Cela établit une connexion sécurisée et cryptée et protège les données sensibles échangées entre le serveur et l'utilisateur. La mise en œuvre d'un certificat SSL garantit la confiance des utilisateurs et améliore la réputation d'une startup en matière de sécurité des données.
 
 
 ## Reverse proxy avec NGINX
 
-Afin d'améliorer les performances et la sécurité du serveur web, Ynnov'Solutions envisage de mettre en place un reverse proxy avec NGINX. Un reverse proxy agit comme une passerelle entre les clients et le serveur Apache, répartissant les requêtes entrantes et optimisant le flux de trafic. NGINX a été choisi pour cette tâche en raison de sa réputation en matière de performances élevées et de gestion efficace des connexions réseau.
+Pour améliorer les performances et la sécurité du serveur web, Ynnov'Solutions prévoit de mettre en place un reverse proxy utilisant NGINX. Un proxy inverse agit comme une passerelle entre les clients et les serveurs Apache, distribuant les requêtes entrantes et optimisant le trafic. NGINX a été choisi pour cette tâche car il est connu pour ses hautes performances et sa gestion efficace des connexions réseau.
 
-L'une des fonctions clés du reverse proxy sera la répartition de charge, qui permet de distribuer équitablement les requêtes entre plusieurs instances d'Apache. Cela permet de réduire la charge sur chaque serveur individuel et d'améliorer la capacité globale du système à traiter les demandes. NGINX sera configuré pour surveiller les performances des serveurs Apache et rediriger les requêtes vers les serveurs les moins chargés, garantissant ainsi une répartition équilibrée de la charge de travail.
+L'une des principales caractéristiques des proxys inverses est l'équilibrage de charge, qui permet de répartir les requêtes de manière uniforme sur plusieurs instances Apache. Cela réduit la charge sur les serveurs individuels et améliore la capacité globale du système à gérer les demandes. NGINX est configuré pour surveiller les performances du serveur Apache et rediriger les requêtes vers le serveur le moins chargé afin d'assurer l'équilibre de la charge de travail.
 
-En plus de la répartition de charge, NGINX sera également responsable de la gestion des connexions SSL. Il sera configuré pour gérer les certificats SSL et assurer la sécurité des communications entre les clients et les serveurs. Cela permettra à la start-up de fournir des connexions sécurisées à ses utilisateurs, renforçant ainsi la confiance dans ses services.
+Pour améliorer les performances et la sécurité du serveur web, Ynnov'Solutions envisage de mettre en place un reverse proxy utilisant NGINX. Un proxy inverse agit comme une passerelle entre les clients et les serveurs Apache, distribuant les requêtes entrantes et optimisant le trafic. NGINX a été choisi pour cette tâche car il est connu pour ses hautes performances et sa gestion efficace des connexions réseau.
 
-De plus, NGINX sera utilisé pour servir les fichiers statiques tels que les images, les feuilles de style CSS et les scripts JavaScript. En mettant en cache ces fichiers statiques, NGINX réduira la charge sur le serveur Apache, ce qui permettra d'améliorer les performances globales du système.
+En plus de l'équilibrage de charge, NGINX est également responsable de la gestion des connexions SSL. Il est configuré pour gérer les certificats SSL et assurer une communication sécurisée entre les clients et les serveurs. Cela permettra aux startups de fournir des connexions sécurisées à leurs utilisateurs et de renforcer la confiance dans leurs services.
+
+De plus, NGINX est utilisé pour servir des fichiers statiques tels que des images, des feuilles de style CSS et des scripts JavaScript. En mettant en cache ces fichiers statiques, NGINX réduit la charge sur le serveur Apache et améliore les performances globales du système.
 
 
 ## Load balancing avec NGINX
